@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- csusb.launchd.xml -->
+
+<launch>
+    <copy file="csusb.net.xml" />
+    <copy file="csusb.rou.xml" />
+    <copy file="csusb.poly.xml" />
+    <copy file="csusb.sumo.cfg" type="config" />
+</launch>

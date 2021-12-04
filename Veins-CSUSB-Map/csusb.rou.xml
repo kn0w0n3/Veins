@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+
+<routes> <!-- The opening tag -->
+
+   <!-- Vehicle types -->
+   <vType id="passenger" length="5.0" width="2.0" maxSpeed="70.0" accel="2.6" decel="4.5" sigma="0.5"/>
+
+   <!-- Routes + associated vehicles & flows -->
+   <route id="trip-0" color="Magenta" edges="-7234274#1 7234274#1 -245008167#0 936668811#2 936668811#3 936668811#4 7342056#0 7342056#0-AddedOffRampEdge 7342056#2 43783206#0 43783206#1 43783206#2 45101504#0 45101504#1 45101504#2 45101504#3 -305454911#5 -305454911#3 -305454911#2 305454911#2"/>
+   <vehicle id="vehicle-0" type="passenger" color="Yellow" depart="0.0" route="trip-0"/>
+   <vehicle id="vehicle-9" type="passenger" color="Yellow" depart="0.09" route="trip-0"/>
+   <vehicle id="vehicle-18" type="passenger" color="Yellow" depart="0.18" route="trip-0"/>
+   <vehicle id="vehicle-27" type="passenger" color="Yellow" depart="0.27" route="trip-0"/>
+
+   <route id="trip-1" color="Magenta" edges="45101504#1 45101504#2 45101504#3 305454120#0 43783208#0 43783208#2 43783208#3 43783208#4 646809382#0 646809382#1 646809382#2 646809382#3 7408630 -7328091#2 -7328091#1 -7477110#3 7477110#3"/>
+   <vehicle id="vehicle-1" type="passenger" color="Yellow" depart="0.01" route="trip-1"/>
+   <vehicle id="vehicle-10" type="passenger" color="Yellow" depart="0.1" route="trip-1"/>
+   <vehicle id="vehicle-19" type="passenger" color="Yellow" depart="0.19" route="trip-1"/>
+   <vehicle id="vehicle-28" type="passenger" color="Yellow" depart="0.28" route="trip-1"/>
+
+   <route id="trip-2" color="Magenta" edges="-45101456#4 -45101456#3 -45101456#2 43783247#0 43783247#1 43783247#2 43783240#4 43783239#0 43783239#2 43783239#3 43783239#4 43783239#5 43783208#0 43783208#2 43783208#3 43783208#4 646809382#0 646809382#1 646809382#2 646809382#3 646809382#4 -305454129#4 -305454129#2 7359997#2 7320918#1"/>
+   <vehicle id="vehicle-2" type="passenger" color="Yellow" depart="0.02" route="trip-2"/>
+   <vehicle id="vehicle-11" type="passenger" color="Yellow" depart="0.11" route="trip-2"/>
+   <vehicle id="vehicle-20" type="passenger" color="Yellow" depart="0.2" route="trip-2"/>
+   <vehicle id="vehicle-29" type="passenger" color="Yellow" depart="0.29" route="trip-2"/>
+
+   <route id="trip-3" color="Magenta" edges="45101489#17 45101489#18 45101501#0 45101501#1 -45101501#1"/>
+   <vehicle id="vehicle-3" type="passenger" color="Yellow" depart="0.03" route="trip-3"/>
+   <vehicle id="vehicle-12" type="passenger" color="Yellow" depart="0.12" route="trip-3"/>
+   <vehicle id="vehicle-21" type="passenger" color="Yellow" depart="0.21" route="trip-3"/>
+
+   <route id="trip-4" color="Magenta" edges="7410861 -7410861 7234274#1"/>
+   <vehicle id="vehicle-4" type="passenger" color="Yellow" depart="0.04" route="trip-4"/>
+   <vehicle id="vehicle-13" type="passenger" color="Yellow" depart="0.13" route="trip-4"/>
+   <vehicle id="vehicle-22" type="passenger" color="Yellow" depart="0.22" route="trip-4"/>
+
+   <route id="trip-5" color="Magenta" edges="43783247#1 43783247#2 912286632#1 45101488#8 45101488#9 751820141 751820142#3 751820142#4"/>
+   <vehicle id="vehicle-5" type="passenger" color="Yellow" depart="0.05" route="trip-5"/>
+   <vehicle id="vehicle-14" type="passenger" color="Yellow" depart="0.14" route="trip-5"/>
+   <vehicle id="vehicle-23" type="passenger" color="Yellow" depart="0.23" route="trip-5"/>
+
+   <route id="trip-6" color="Magenta" edges="7410866#0 7410866#1 7204028 7245393#1 7359997#1 305454129#2 305454129#3 7342056#0 7342056#0-AddedOffRampEdge 7342056#2 646809382#2 646809382#3 7408630 -7328091#2 -7328091#1 -7477110#3 -7477110#2 7477110#2"/>
+   <vehicle id="vehicle-6" type="passenger" color="Yellow" depart="0.06" route="trip-6"/>
+   <vehicle id="vehicle-15" type="passenger" color="Yellow" depart="0.15" route="trip-6"/>
+   <vehicle id="vehicle-24" type="passenger" color="Yellow" depart="0.24" route="trip-6"/>
+
+   <route id="trip-7" color="Magenta" edges="7435417#4 305454122#1 305454122#2 305454120#0 43783252#1 -45101501#3 -45101501#1 -45101501#0 -45101489#19 -45101489#17 -45101489#16 -45101489#15"/>
+   <vehicle id="vehicle-7" type="passenger" color="Yellow" depart="0.07" route="trip-7"/>
+   <vehicle id="vehicle-16" type="passenger" color="Yellow" depart="0.16" route="trip-7"/>
+   <vehicle id="vehicle-25" type="passenger" color="Yellow" depart="0.25" route="trip-7"/>
+
+   <route id="trip-8" color="Magenta" edges="-7416276#3 7390191 -7305016#0 7389380#2 305454911#1 305454911#2 305454911#3 305454911#4 305454120#0 43783208#0 43783208#2 43783208#3 43783208#4 646809382#0 646809382#1 646809382#2 646809382#3 646809382#4 611356637#0 425424824#1 7355743#0"/>
+   <vehicle id="vehicle-8" type="passenger" color="Yellow" depart="0.08" route="trip-8"/>
+   <vehicle id="vehicle-17" type="passenger" color="Yellow" depart="0.17" route="trip-8"/>
+   <vehicle id="vehicle-26" type="passenger" color="Yellow" depart="0.26" route="trip-8"/>
+
+</routes> <!-- The closing tag -->

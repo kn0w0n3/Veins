@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-10-16 20:44:40 by Eclipse SUMO duarouter Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="washingtondc.net.xml"/>
+        <route-files value="mytrip.xml"/>
+    </input>
+
+    <output>
+        <output-file value="myroute.xml"/>
+        <alternatives-output value="myroute.alt.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="trip-14" depart="0.00" color="magenta">
+        <routeDistribution last="0">
+            <route cost="101.81" probability="1.00000000" edges="535780677#2 6055389#0 397316203#0 70948803#0 397316176#0 397316171 397316180#0 397316186#0 397316195#0 397316204#0 347003327#0 397327124#0 468433796 397327121#0 347003229#0 347003229#2 589551073#0 345633934#0 589539535#0 589533502#0 468434122#0 468434122#2 695842775 469157092 468434120#0 345633935#0 345633935#2 345633935#4 -438958617#8 -438958617#6"/>
+        </routeDistribution>
+    </vehicle>
+</routes>
